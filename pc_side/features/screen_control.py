@@ -14,6 +14,3 @@ def toggle_second_screen():
     else:
         print("Activation du deuxième écran...")
         subprocess.run(["C:\\Windows\\System32\\DisplaySwitch.exe", "/extend"])
-
-if __name__ == "__main__":
-    toggle_second_screen()

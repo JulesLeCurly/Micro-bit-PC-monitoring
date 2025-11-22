@@ -1,0 +1,5 @@
+# Serial port configuration
+microbit_port: 'COM14'  # Windows : COMx ; macOS/Linux : /dev/ttyACMx
+baud_rate: 115200  # Must match the setting on the micro:bit side
+UPDATE_INTERVAL: 0.25 # Interval (in seconds) for updating data from micro:bit
+Retray_timeout: 2  # Time (in seconds) to wait before retrying connection to micro:bit
